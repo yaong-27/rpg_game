@@ -209,7 +209,7 @@ while hp > 0:
 
     # Script to go to the store, return to comabat, or heal
     if hp > 0:
-        choice = input("You have " + green + str(hp) + reset + " health, " + str(healpot) + " healing potions, and " + yellow + str(coins) + reset + " coins.\nWould you like to heal, go to the store, or conntinue adventuring?(h/s/B)\n>>")
+        choice = input("You have " + green + str(hp) + reset + " health, " + str(healpot) + " healing potions, and " + yellow + str(coins) + reset + " coins.\nWould you like to heal, go to the store, or continue adventuring?(h/s/B)\n>>")
 
         # Healing Script
         if choice == "h":
