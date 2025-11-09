@@ -14,7 +14,7 @@ def str_c(string,color):
         color (String): Color that has to be used
     
     Returns:
-        String with the choosed color
+        Colored string
     """
     return (color + "" + string(str) + "" + reset)
 
