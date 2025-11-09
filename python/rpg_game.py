@@ -5,18 +5,18 @@ import random
 from scenes import get_scenes  # Import of the function that returns the scenes list
 
 
-def str_c(string,color):
+def str_c(output,color):
     """
     Returns a "colored" string and resets the color of the strings that come after
 
     Args:
-        string (String or Integer): String/Integer that needs to be colored 
+        output (String or Integer): String/Integer that needs to be colored 
         color (String): Color that has to be used
     
     Returns:
         Colored string
     """
-    return (color + "" + str(string) + "" + reset)
+    return (color + "" + str(output) + "" + reset)
 
 
 # Setting constant variables
