@@ -1,9 +1,9 @@
 # Scenes.py
-# Module file that has the task to return the list of the scenes thanks to the function get_scene_list
+# Module file that has the task to return the list of the scenes thanks to the function get_scenes
 # TODO: Use a text file or a JSON file to store the scenes list in a better way
 
 
-def get_scene_list(beast_name):
+def get_scenes(beast_name):
     return [
     "You walk into a forest and find a " + beast_name + "!",
     "You go into the long grass and find a " + beast_name + "!",
