@@ -2,7 +2,7 @@
 # If you're reading this, I hope you're doing okay, and if youre not, whatever youre going through isn't going to last forever.
 
 import random
-from scenes import get_scene_list  # Import of the function that returns the scenes list
+from scenes import get_scenes  # Import of the function that returns the scenes list
 
 
 def str_c(string,color):
@@ -84,7 +84,7 @@ while hp > 0:
         beast_name = "Ricky Berwick" # Fucking run over coat hanger
 
     # Import of the scenes list from scenes.py thanks to the get_scene_list function
-    scene_list = get_scene_list(beast_name)
+    scene_list = get_scenes(beast_name)
     scene = scene_list[random.randint(0, len(scene_list))]
     print(scene)
 
