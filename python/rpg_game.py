@@ -10,13 +10,13 @@ def str_c(string,color):
     Returns a "colored" string and resets the color of the strings that come after
 
     Args:
-        string (String): String that needs to be colored 
+        string (String or Integer): String/Integer that needs to be colored 
         color (String): Color that has to be used
     
     Returns:
         Colored string
     """
-    return (color + "" + string(str) + "" + reset)
+    return (color + "" + str(string) + "" + reset)
 
 
 # Setting constant variables
