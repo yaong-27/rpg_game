@@ -83,7 +83,7 @@ while hp > 0:
         beast_type = 3
         beast_name = "Ricky Berwick" # Fucking run over coat hanger
 
-    # Import of the scenes list from scenes.py thanks to the get_scene_list function
+    # Import of the scenes list from scenes.py thanks to the get_scenes function
     scene_list = get_scenes(beast_name)
     scene = scene_list[random.randint(0, len(scene_list) - 1)]
     print(scene)
