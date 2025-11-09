@@ -1,5 +1,5 @@
 # Version 3.6
-# If you're reading this, I hope you're doing okay, and if youre not, whatever youre going through isn't going to last forever.
+# If you're reading this, I hope you're doing okay, and if you're not, whatever you're going through isn't going to last forever.
 
 import random
 from scenes import get_scenes  # Import of the function that returns the scenes list
@@ -85,7 +85,7 @@ while hp > 0:
 
     # Import of the scenes list from scenes.py thanks to the get_scene_list function
     scene_list = get_scenes(beast_name)
-    scene = scene_list[random.randint(0, len(scene_list))]
+    scene = scene_list[random.randint(0, len(scene_list) - 1)]
     print(scene)
 
     # Generate beast health
